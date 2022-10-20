@@ -2,27 +2,68 @@
 # yarn lockfile v1
 
 
-"@acid-info/docusaurus-search-local@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-search-local/-/docusaurus-search-local-0.32.1.tgz#c13da0f077b8b05f8ed5a16bdd1ea6126ea49716"
-  integrity sha512-cj/n/bmK3lySxKsnFVoKCXdzHV7/qtxxhZIdejcpW+Wj+b3P3Uv044F9eQwKK8LjOhc4TeD/KLFYhZ8SvYXTPA==
+"@acid-info/logos-docusaurus-preset@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-0.1.0.tgz#71a52b584bf32fe52acfeb2f5a8eff944ba469dd"
+  integrity sha512-2x4WMaJqTBXeR+Lzl/CMtbolOkTK97pLWCcoLCtbaqJzK/fHaHo/Vu5H38CT2jefhtsQJFs/eSfM+nPiioERZw==
   dependencies:
-    "@docusaurus/plugin-content-docs" "^2.0.0-rc.1"
-    "@docusaurus/theme-translations" "^2.0.0-rc.1"
-    "@docusaurus/utils" "^2.0.0-rc.1"
-    "@docusaurus/utils-common" "^2.0.0-rc.1"
-    "@docusaurus/utils-validation" "^2.0.0-rc.1"
-    "@easyops-cn/autocomplete.js" "^0.38.1"
-    "@node-rs/jieba" "^1.6.0"
-    cheerio "^1.0.0-rc.3"
-    clsx "^1.1.1"
-    debug "^4.2.0"
-    fs-extra "^10.0.0"
-    klaw-sync "^6.0.0"
-    lunr "^2.3.9"
-    lunr-languages "^1.4.0"
-    mark.js "^8.11.1"
-    tslib "^2.4.0"
+    "@acid-info/logos-docusaurus-search-local" "^0.1.2"
+    "@acid-info/logos-docusaurus-theme" "^0.1.1"
+    "@docusaurus/core" "2.1.0"
+    "@docusaurus/module-type-aliases" "2.1.0"
+    "@docusaurus/preset-classic" "^2.1.0"
+    "@docusaurus/types" "2.1.0"
+    "@docusaurus/utils" "2.1.0"
+    "@docusaurus/utils-common" "2.1.0"
+    "@docusaurus/utils-validation" "2.1.0"
+    docusaurus-plugin-sass "^0.2.2"
+    lodash "^4.17.21"
+
+"@acid-info/logos-docusaurus-search-local@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-0.1.2.tgz#d16610d3bc0a8eb1d1606c25dcbeb0a32e0b7e4c"
+  integrity sha512-HSaq8vSUOwVmB6BiPw1pvxIo1g157rb0KdfecFurty3b00JzH/Tc2d/n2Oy/EJ5rhtHlj6PQ4A6RBl9dgmL8Hg==
+  dependencies:
+    "@docusaurus/core" "2.1.0"
+    "@docusaurus/module-type-aliases" "2.1.0"
+    "@docusaurus/types" "2.1.0"
+    "@docusaurus/utils" "2.1.0"
+    "@docusaurus/utils-common" "2.1.0"
+    "@docusaurus/utils-validation" "2.1.0"
+    "@easyops-cn/docusaurus-search-local" "^0.33.5"
+    lodash "^4.17.21"
+
+"@acid-info/logos-docusaurus-theme@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-0.1.1.tgz#bf1e37385df872f59f55a07a320f183488a619be"
+  integrity sha512-sK0K2QEHhG1BlCb27d7Be6XHVTomAJWs/UfkMO+6SLDgKo4lZNNqndPhRJLtRS6vH4sabXIUSuw5xRK44r1zjg==
+  dependencies:
+    "@docusaurus/core" "2.1.0"
+    "@docusaurus/mdx-loader" "2.1.0"
+    "@docusaurus/module-type-aliases" "2.1.0"
+    "@docusaurus/plugin-content-blog" "2.1.0"
+    "@docusaurus/plugin-content-docs" "2.1.0"
+    "@docusaurus/plugin-content-pages" "2.1.0"
+    "@docusaurus/theme-classic" "^2.1.0"
+    "@docusaurus/theme-common" "2.1.0"
+    "@docusaurus/theme-translations" "2.1.0"
+    "@docusaurus/types" "2.1.0"
+    "@docusaurus/utils" "2.1.0"
+    "@docusaurus/utils-common" "2.1.0"
+    "@docusaurus/utils-validation" "2.1.0"
+    "@mdx-js/react" "^1.6.22"
+    "@tryghost/content-api" "^1.11.4"
+    clsx "^1.2.1"
+    copy-text-to-clipboard "^3.0.1"
+    copy-to-clipboard "^3.3.2"
+    docusaurus-plugin-sass "^0.2.2"
+    dotenv "^16.0.3"
+    lodash "^4.17.21"
+    prism-react-renderer "^1.3.5"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-use "^17.4.0"
+    utility-types "^3.10.0"
 
 "@algolia/autocomplete-core@1.7.1":
   version "1.7.1"
@@ -1457,7 +1498,7 @@
     sitemap "^7.1.1"
     tslib "^2.4.0"
 
-"@docusaurus/preset-classic@2.1.0":
+"@docusaurus/preset-classic@2.1.0", "@docusaurus/preset-classic@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.1.0.tgz#45b23c8ec10c96ded9ece128fac3a39b10bcbc56"
   integrity sha512-NQMnaq974K4BcSMXFSJBQ5itniw6RSyW+VT+6i90kGZzTwiuKZmsp0r9lC6BYAvvVMQUNJQwrETmlu7y2XKW7w==
@@ -1483,7 +1524,7 @@
     "@types/react" "*"
     prop-types "^15.6.2"
 
-"@docusaurus/theme-classic@2.1.0":
+"@docusaurus/theme-classic@2.1.0", "@docusaurus/theme-classic@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-classic/-/theme-classic-2.1.0.tgz#d957a907ea8dd035c1cf911d0fbe91d8f24aef3f"
   integrity sha512-xn8ZfNMsf7gaSy9+ClFnUu71o7oKgMo5noYSS1hy3svNifRTkrBp6+MReLDsmIaj3mLf2e7+JCBYKBFbaGzQng==
@@ -1624,6 +1665,28 @@
   dependencies:
     cssesc "^3.0.0"
     immediate "^3.2.3"
+
+"@easyops-cn/docusaurus-search-local@^0.33.5":
+  version "0.33.5"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.33.5.tgz#8048b75c860b0ab0eb007159aa13b04ac0c72078"
+  integrity sha512-9juHGVUy6N37Ezg1Msz1paMqT3zrQIlRLNJVw/NTG3aSctaYw1W0zAIRieXgBKvBAPkcCn95GsUrcziH13Grsw==
+  dependencies:
+    "@docusaurus/plugin-content-docs" "^2.0.0-rc.1"
+    "@docusaurus/theme-translations" "^2.0.0-rc.1"
+    "@docusaurus/utils" "^2.0.0-rc.1"
+    "@docusaurus/utils-common" "^2.0.0-rc.1"
+    "@docusaurus/utils-validation" "^2.0.0-rc.1"
+    "@easyops-cn/autocomplete.js" "^0.38.1"
+    "@node-rs/jieba" "^1.6.0"
+    cheerio "^1.0.0-rc.3"
+    clsx "^1.1.1"
+    debug "^4.2.0"
+    fs-extra "^10.0.0"
+    klaw-sync "^6.0.0"
+    lunr "^2.3.9"
+    lunr-languages "^1.4.0"
+    mark.js "^8.11.1"
+    tslib "^2.4.0"
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
@@ -2146,11 +2209,6 @@
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
-
-"@types/lodash@^4.14.186":
-  version "4.14.186"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.186.tgz#862e5514dd7bd66ada6c70ee5fce844b06c8ee97"
-  integrity sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==
 
 "@types/mdast@^3.0.0":
   version "3.0.10"

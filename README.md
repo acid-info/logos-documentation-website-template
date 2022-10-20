@@ -1,41 +1,45 @@
-# Website
+- [Description](#description)
+- [How to Run Locally](#how-to-run-locally)
+- [Configuration](#configuration)
+- [Customization](#customization)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Description
 
-### Installation
+This repository contains the content of your documentation website.
 
-```
+## How to Run Locally
+
+1. Clone this repository.
+2. Install the dependencies:
+```bash
 $ yarn
 ```
-
-### Local Development
-
-```
+3. Start and open the website in your browser:
+```bash
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Configuration
+Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
+- Codex
+- Waku
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+Example:
+```js
+presets: [
+  [
+    '@acid-info/logos-docusaurus-preset',
+    {
+      businessUnit: 'Codex',
+    },
+  ],
+],
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This is probably enough in most cases, as the Logos plugins will fill in other configurations related to the specified business unit. If you find any error in the information coming from Logos Plugins, please head over to [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins) and create an issue.
+
+## Customization
+
+You can find the instructions on adding more documentation sections, localization, and versioning on the [Docusaurus](https://docusaurus.io/docs) website.
+
+> Note that theme customization is limited; for further instructions on customizing your theme, head over to [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/). 
