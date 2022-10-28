@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "v3",
+    "description": "The label for version v3"
+  },
+  "sidebar.defaultSidebar.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category Guides in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Waku Connect Vote & Poll SDK": {
+    "message": "Waku Connect Vote & Poll SDK",
+    "description": "The label for category Waku Connect Vote & Poll SDK in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Create a DApp": {
+    "message": "Create a DApp",
+    "description": "The label for category Create a DApp in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Poll SDK": {
+    "message": "Poll SDK",
+    "description": "The label for category Poll SDK in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Vote SDK": {
+    "message": "Vote SDK",
+    "description": "The label for category Vote SDK in sidebar defaultSidebar"
+  }
+}

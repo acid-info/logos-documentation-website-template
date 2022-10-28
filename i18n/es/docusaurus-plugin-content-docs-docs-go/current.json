@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.defaultSidebar.category.tutorials": {
+    "message": "tutorials",
+    "description": "The label for category tutorials in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.The go-waku guide for operators": {
+    "message": "The go-waku guide for operators",
+    "description": "The label for category The go-waku guide for operators in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.how-to": {
+    "message": "how-to",
+    "description": "The label for category how-to in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.api": {
+    "message": "api",
+    "description": "The label for category api in sidebar defaultSidebar"
+  }
+}
