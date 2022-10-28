@@ -14,7 +14,9 @@ The Codex team is working on a next-generation storage engine that attempts to â
 
 ## Students Program
 
-This program is available to undergraduate and graduate students officially enrolled in a university, pursuing their B.Sc. or M.Sc. in the field of Computer Sciences or a related domain. The duration of the program could be between 3 and 6 months.
+This program is available to undergraduate and graduate students officially enrolled in a university, pursuing their B.Sc. or M.Sc. in the field of Computer Sciences or a related domain. The duration of the program could be between 3 and 6 months. 
+
+Apply [HERE](https://jobs.status.im/?gh_jid=4603013).
 
 ## Bonus if you have
 
