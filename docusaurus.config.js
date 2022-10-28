@@ -23,7 +23,7 @@ const config = {
   presets: [
     [
       '@acid-info/logos-docusaurus-preset',
-      /** @type {import('@acid-info/logos-docusaurus-preset/src').PluginOptions} */
+      /** @type {import('@acid-info/logos-docusaurus-preset').PluginOptions} */
       ({
         businessUnit: 'Codex',
         theme: {
@@ -37,7 +37,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@acid-info/logos-docusaurus-preset/src').ThemeConfig} */
+    /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({}),
 }
 
