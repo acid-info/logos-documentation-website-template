@@ -21,6 +21,7 @@ $ yarn start
 
 ## Configuration
 Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
+- Logos
 - Codex
 - Waku
 
