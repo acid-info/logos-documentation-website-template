@@ -19,6 +19,25 @@ Waku was built as open-source public goods infrastructure to serve as the commun
 
 - Platform agnostic: Waku can run on any platform or in any environment making it a suitable messaging solution for decentralized applications regardless of the network on which they're deployed.
 
+### Network architecture
+The Waku team has developed three clients to run in different environments along with a range of SDKs in Rust, React Native, Kotlin and Swift: 
+
+- nwaku: Waku's reference implementation written in Nim.
+- go-waku: An implementation for native integration with Golang applications.
+- js-waku: Waku's JavaScript implementation for browser environments.
+
+Waku is best thought of as a cohesive whole in terms of its capabilities. However, under the hood are three distinct network interaction domains: gossip, discovery and request/response. 
+
+Waku compromises multiple protocols, including but not limited to the following:
+
+**Waku Relay**: The heart of Waku v2, the relay protocol specifies a pub/sub approach to p2p messaging with a focus on privacy, censorship resistance, security and privacy, and is currently implemented as a minor extension of the libp2p GossipSub protocol. 
+
+**Waku Filter**: A lighter-weight version of the relay protocol for resource-restricted devices, Waku Filter enables light nodes to only receive the messages they want from full nodes. 
+
+**Waku Store**: Enables querying of messages stored by other nodes through Waku Relay.
+
+**Waku Light Push**: A request/response protocol that enables nodes with short connection windows or limited bandwidth to publish messages to the Waku network
+
 <br/>
 
 ![image info](/subpages/architect.png)
