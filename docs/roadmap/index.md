@@ -9,6 +9,8 @@ Given Waku v1's scaling difficulties, the team behind Waku is primarily focused 
 
 Meanwhile, the team is also working on ensuring production readiness alongside network and development sustainability. Although work on these areas is already underway, our efforts will intensify as we make progress toward our million-user-milestone. Finally, Waku aims to promote itself among developers looking to add decentralized communications to their applications.
 
+<br/>
+
 **Secure scalability**: Alongside Vac researchers, Waku is producing and implementing various RFCs to define the protocols and application guidelines required to serve more than one million simultaneous users. We then aim to study Waku's capacity through network simulations before designing and implementing scalability risk-mitigation strategies. 
 
 **Production readiness**: We will consider Waku v2 production ready when it's performant, stable and bug-free while satisfying user requirements. This process will involve collaboration with Status teams to test the protocols and further simulations to assess future updates' expected performances. Ensuring that Waku has adequate protection against spam and DoS attacks is critically important to this milestone. 
@@ -20,6 +22,8 @@ This process will involve defining a viable incentivization structure via RFC be
 **Development sustainability**: We believe Waku will only realize its true potential if its community and users believe in its longevity. As such, Waku's development must remain funded. Again, arriving at a suitable funding mechanism will involve several RFCs to define how much of the network's extractable value can be diverted toward R&D efforts. 
 
 **Growth**: After achieving the above milestones, we will be in a position to aggressively market Waku to potential contributors and developers within the web3 sector and beyond. As a piece of public goods infrastructure, we encourage the wider community to help improve the protocols by contributing to our R&D efforts. However, promotion is an ongoing process that is already underway, involving conference attendance and sponsorship, hosting developer workshops, producing promotional material, and appearing on industry-focused podcasts.
+
+<br/>
 
 ### Roadmap rationale
 

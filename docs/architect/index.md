@@ -19,6 +19,8 @@ Waku was built as open-source public goods infrastructure to serve as the commun
 
 - Platform agnostic: Waku can run on any platform or in any environment making it a suitable messaging solution for decentralized applications regardless of the network on which they're deployed.
 
+<br/>
+
 ### Network architecture
 The Waku team has developed three clients to run in different environments along with a range of SDKs in Rust, React Native, Kotlin and Swift: 
 
