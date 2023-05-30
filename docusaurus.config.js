@@ -38,7 +38,7 @@ const config = {
         // in case you do not need docs, set the docs to false
         docs: {
           //  change this to '/' if you do want to use docs as landing page
-          routeBasePath: '/docs',
+          routeBasePath: '/about',
           // enable this to have versioning
           // versions: {
           //   current: {
@@ -59,8 +59,8 @@ const config = {
       navbar: {
         items: [
           {
-            label: 'Docs',
-            href: '/docs',
+            label: 'About',
+            href: '/about',
           },
           {
             label: 'Features',
