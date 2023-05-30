@@ -53,6 +53,7 @@ const config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
+    //@ts-ignore
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({
       navbar: {
